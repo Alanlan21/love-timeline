@@ -22,8 +22,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nossa Timeline",
-  description: "TimeLine of our special moments together",
-}
+ description: "Uma linha do tempo privada e interativa para registrar os momentos especiais do nosso relacionamento",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png"
+  }
+};
 
 export default function RootLayout({
   children,
