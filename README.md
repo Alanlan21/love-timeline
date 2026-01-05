@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗣️ FalaPai
 
-## Getting Started
+> *Um assistente de comunicação inteligente criado com amor*
 
-First, run the development server:
+## 📖 História
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este projeto nasceu de uma necessidade pessoal muito especial. Após meu pai passar por uma cirurgia que envolveu suas cordas vocais, percebi a importância de ter uma ferramenta de comunicação assistiva que fosse simples, eficiente e natural. O FalaPai foi desenvolvido para ajudar pessoas que enfrentam dificuldades de fala a se comunicarem de forma mais fluida e independente.
+
+## 🎯 O que é o FalaPai?
+
+O FalaPai é uma aplicação web progressiva (PWA) de comunicação assistiva que converte texto em fala utilizando síntese de voz de alta qualidade. Projetado especificamente para pessoas com dificuldades de comunicação vocal, oferece uma interface intuitiva e funcionalidades pensadas para o uso cotidiano.
+
+## ✨ Funcionalidades
+
+### 🚀 **Síntese de Voz Avançada**
+- Integração com a API ElevenLabs para voz natural em português brasileiro
+- Controles intuitivos de reprodução (play/pause/resume)
+- Qualidade de voz multilíngue de última geração
+
+### ⚡ **Frases Rápidas**
+- Sistema de 10 frases pré-configuradas para comunicação comum
+- Reorganização através de drag & drop
+- Edição completa: adicionar, editar e excluir frases
+- Persistência automática no dispositivo
+
+### 📝 **Frases Longas Salvas**
+- Editor dedicado para textos mais extensos
+- Sistema de títulos para organização
+- Armazenamento local seguro
+
+### 📱 **Progressive Web App (PWA)**
+- Instalável como aplicativo nativo no celular/desktop
+- Funciona offline após a primeira instalação
+- Interface responsiva e moderna
+- Tema personalizado em gradientes roxo/índigo
+
+## 🛠️ Stack Tecnológica
+
+```
+Frontend:    React 19.1.0 + Vite 7.0.0
+Estilização: Tailwind CSS 3.4.3 + Google Fonts (Inter)
+PWA:         vite-plugin-pwa
+Drag & Drop: @hello-pangea/dnd
+Síntese:     ElevenLabs API
+Build:       Vite com otimizações para produção
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Como usar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Pré-requisitos
+- Node.js 18+ instalado
+- Chave de API da ElevenLabs (opcional, para síntese de voz premium)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Instalação
 
-## Learn More
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/Alanlan21/Fala-Pai.git
+   cd Fala-Pai
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Configure a API (opcional)**
+   - Obtenha sua chave da API em [ElevenLabs](https://elevenlabs.io/)
+   - Configure a chave no código ou variável de ambiente
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Execute o projeto**
+   ```bash
+   # Desenvolvimento
+   npm run dev
 
-## Deploy on Vercel
+   # Build para produção
+   npm run build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   # Preview do build
+   npm run preview
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Instale como PWA**
+   - Abra o aplicativo no navegador
+   - Procure pelo ícone de "Instalar app" na barra de endereços
+   - Ou use "Adicionar à tela inicial" no menu do navegador
+
+
+## 👨‍💻 Autor
+
+**Alan Regis** - [Alanlan21](https://github.com/Alanlan21)
+
+---
+
+<div align="center">
+  
+
+**⭐ Se este projeto te ajudou, considere dar uma estrela!**
+
+</div>
