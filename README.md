@@ -171,14 +171,6 @@ Altere a variável `NEXT_PUBLIC_COUPLE_PASSWORD` no arquivo `.env.local`.
 Edite a variável `BACKGROUND_IMAGE` em [components/AuthScreen.tsx](components/AuthScreen.tsx).
 
 
-## 🐛 Problemas Conhecidos
-
-- Upload de imagens muito grandes pode ser lento
-- Algumas animações podem ter performance reduzida em dispositivos antigos
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](LICENSE). Veja o arquivo `LICENSE` para mais detalhes.
 
 ## 👨‍💻 Autor
 
@@ -186,15 +178,6 @@ Este projeto está sob a licença [MIT](LICENSE). Veja o arquivo `LICENSE` para 
 
 ---
 
-<div align="center">
-
-**Feito com 💕 para casais que querem preservar suas memórias especiais**
-
-[⭐ Se gostou, deixe uma estrela!](https://github.com/Alanlan21/love-timeline)
-
-</div>
-
----
 
 <div align="center">
   
